@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\2959012\\source\\repos\\Prueba_Borrar_Archivos\\Prueba_Borrar_Archivos\\Prueba_Borrar_Archivos.csproj",
+      "projectUniqueName": "C:\\Users\\2959012\\source\\repos\\AutoClean\\Prueba_Borrar_Archivos\\Prueba_Borrar_Archivos.csproj",
       "projectName": "Prueba_Borrar_Archivos",
-      "projectPath": "C:\\Users\\2959012\\source\\repos\\Prueba_Borrar_Archivos\\Prueba_Borrar_Archivos\\Prueba_Borrar_Archivos.csproj",
+      "projectPath": "C:\\Users\\2959012\\source\\repos\\AutoClean\\Prueba_Borrar_Archivos\\Prueba_Borrar_Archivos.csproj",
       "packagesPath": "C:\\Users\\2959012\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\2959012\\source\\repos\\Prueba_Borrar_Archivos\\Prueba_Borrar_Archivos\\obj\\",
+      "outputPath": "C:\\Users\\2959012\\source\\repos\\AutoClean\\Prueba_Borrar_Archivos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\2959012\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -35,32 +35,25 @@ namespace Prueba_Borrar_Archivos
                     i++;
                 }
                 MessageBox.Show("Archivos eliminados", "Completo");
-                if (i == strDirectories.Count)
+                if (i == strDirectories.Count && i != 0)
                 {
                     lb_NumeroDeArchivos.Text = i.ToString();
                     lb_fechaUltima.Text = fecha.ToString("dd/MM/yyyy");
                     lb_Estado.Text = "OK";
                     lb_Estado.ForeColor = Color.Green;
-
                     lb_SiguienteFecha.Text = fecha.AddMonths(mesSiguiente).ToString("dd/MM/yyyy");
                 }
                 else
                 {
                     lb_Estado.Text = "NOK";
                     lb_Estado.ForeColor = Color.Red;
+                    MessageBox.Show("ERROR", "Favor de ingresar una rut valida en el campo de texto");
                 }
             }
             else
             {
-                MessageBox.Show("ERROR","Favor de ingresar una rut valida en el campo de texto");
+                MessageBox.Show("ERROR","Favor de ingresar una ruta valida en el campo de texto");
             }
-            
-            
-        }
-        public void Actualizar()
-        {
-
-
         }
     }
 }
